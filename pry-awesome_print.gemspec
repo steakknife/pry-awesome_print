@@ -15,6 +15,6 @@ Gem::Specification.new do |gem|
   gem.files         = `find lib`.split("\n")
   gem.require_paths = ["lib"]
 
-  gem.add_runtime_dependency 'awesome_print'
+  gem.add_runtime_dependency 'awesome_print', '~> 1.1.0'
   gem.add_development_dependency 'pry', '~> 0.1.4'
 end
