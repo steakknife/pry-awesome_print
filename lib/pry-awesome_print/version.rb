@@ -1,3 +1,3 @@
 module PryAwesomePrint
-  VERSION = '9.6.4'
+  VERSION = '9.6.5'
 end
