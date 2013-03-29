@@ -1,2 +1,4 @@
 require 'awesome_print'
-AwesomePrint.pry!
+Pry.print = proc { |output, value|
+  Pry::Helpers::BaseHelpers.stagger_output("=> #{value.ai}", output)
+}
