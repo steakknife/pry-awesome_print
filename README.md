@@ -3,6 +3,9 @@
 ## Install
 ## `gem install pry-awesome_print`
 
+### Public cert for `gem install -P HighSecurity` (pry isn't signed yet)
+#### `gem cert --add <(curl -kL http://git.io/steakknife_gem_public_cert)`
+
 ## Usage
 There's nothing to configure.
 
