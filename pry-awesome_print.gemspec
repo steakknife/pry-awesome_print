@@ -15,7 +15,6 @@ Gem::Specification.new do |gem|
   gem.files         = `find lib`.split("\n")
   gem.require_paths = ["lib"]
 
-  gem.add_runtime_dependency 'awesome_print', '~> 1.1.0'
-  gem.add_runtime_dependency 'pry', '~> 0.9.0'
+  gem.add_runtime_dependency 'awesome_print', '> 1.1.0'
+  gem.add_runtime_dependency 'pry', '> 0.9.0'
 end
-.tap {|gem| gem.signing_key = File.expand_path(File.join('~/.keys', 'gem-private_key.pem')) ; gem.cert_chain = ['gem-public_cert.pem']} # pressed firmly by waxseal
