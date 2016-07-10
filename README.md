@@ -1,6 +1,6 @@
 # pry + awesome_print
 
-This gem is only marginally useful.  If you want a batteries-included pry, try [spirit_hands](https://github.com/steakknife/spirit_hands).
+This gem is only marginally useful but it adds pagination.  If you want a batteries-included pry, try [spirit_hands](https://github.com/steakknife/spirit_hands).
 
 ## Install
 ## `gem install pry-awesome_print`
@@ -9,13 +9,17 @@ This gem is only marginally useful.  If you want a batteries-included pry, try [
 #### `gem cert --add <(curl -kL http://git.io/steakknife_gem_public_cert)`
 
 ## Usage
-There's nothing to configure.  This gem mimics `AwesomePrint.Pry!`
+There's nothing to configure.  This gem mimics `AwesomePrint.Pry!` with the exception that pagination works.
 
 In fact, remove the `require 'awesome_print'  AwesomePrint.Pry!` from ~/.pryrc. 
 
 ## Patches Welcome!
 
 If they're obviously beneficial.
+
+## Implicit Code of Decency
+
+SJWs, morons and dicks will not be tolerated. To all the SJWs out there: take your Code of Conduct, political correctness fascism and find something else to feel guilty about.
 
 ## License
 
